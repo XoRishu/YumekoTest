@@ -11,17 +11,18 @@ def get_user_list(config, key):
 class Config(object):
     LOGGER = True
 
-    API_ID = 
-    API_HASH = ""
-    TOKEN = ""
-    OWNER_ID = 
-    OWNER_USERNAME = ""
-    SUPPORT_CHAT = ""
-    JOIN_LOGGER = ()
-    EVENT_LOGS = ()
+    API_ID = 10872193
+    API_HASH = "7a2c777e52479d13fb1adb29944130cf"
+    TOKEN = "6158580139:AAFY-AwcxtmupB8srXBEbHQenKCS9lK3wnI"
+    OWNER_ID = 5205602399
+    OWNER_USERNAME = "MolesteRishu"
+    SUPPORT_CHAT = "Kaizuryu_Bot_Support"
+    JOIN_LOGGER = -1001607942799
+    EVENT_LOGS = -1001607942799
 
-    SQLALCHEMY_DATABASE_URI = ""
-    MONGO_DB_URI = ""
+    SQLALCHEMY_DATABASE_URI = "postgresql://wlywacfh:UGnK09rXIwWrgh5l9O0Okk-dieKiXpjP@raja.db.elephantsql.com/wlywacfh"
+    DATABASE_URL = "postgresql://wlywacfh:UGnK09rXIwWrgh5l9O0Okk-dieKiXpjP@raja.db.elephantsql.com/wlywacfh"
+    MONGO_DB_URI = "mongodb+srv://xelcius:raizel~97@cluster0.gj9j8.mongodb.net/cluster0?retryWrites=true&w=majority"
     LOAD = []
     NO_LOAD = ["rss"]
     WEBHOOK = False
@@ -49,8 +50,8 @@ class Config(object):
     )
     BAN_STICKER = "CAACAgUAAxkBAAEDafNhq5Z0DegqVzauwSighMw5cPWp8QACVgQAAuUG0FRXfCEuBziNzCIE"
     ALLOW_EXCL = True 
-    CASH_API_KEY = ""
-    TIME_API_KEY = ""
+    CASH_API_KEY = "GPK42QMONC7TGVVL"
+    TIME_API_KEY = "GPOIC5IBWGWC"
     BL_CHATS = []
     SPAMMERS = None
     ALLOW_CHATS = True
