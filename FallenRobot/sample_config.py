@@ -13,6 +13,8 @@ class Config(object):
 
     API_ID = 10872193
     API_HASH = "7a2c777e52479d13fb1adb29944130cf"
+    BOT_NAME = "Yumeko"
+    BOT_USERNAME = "YORHAROBOT"
     TOKEN = "6158580139:AAFY-AwcxtmupB8srXBEbHQenKCS9lK3wnI"
     OWNER_ID = 5205602399
     OWNER_USERNAME = "MolesteRishu"
