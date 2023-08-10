@@ -164,7 +164,6 @@ if ENV:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
 
-DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
 DEV_USERS.add(1356469075)
 
