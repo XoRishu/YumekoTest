@@ -164,9 +164,6 @@ if ENV:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
 
-DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(1356469075)
-
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient("Fallen", API_ID, API_HASH)
