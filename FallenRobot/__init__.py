@@ -165,10 +165,6 @@ if ENV:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
 
-
-dispatcher = updater.dispatcher
-aiohttpsession = ClientSession()
-
 # Bot info
 print("[INFO]: Getting Bot Info...")
 BOT_ID = dispatcher.bot.id
